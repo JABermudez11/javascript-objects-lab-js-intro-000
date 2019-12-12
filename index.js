@@ -1,5 +1,5 @@
 function updateObjectWithKeyAndValue(object, key, value) {
-  var newObj = object.assign({}, obj, {key: value});
+  object.key = value;
   return newObject;
 }
 
